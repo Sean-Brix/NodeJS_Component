@@ -1,0 +1,18 @@
+import express from 'express'
+
+// Router ('{{lowerCase fullRoute}}')
+const router = express.Router();
+
+
+router.route('{{lowerCase route}}')
+    .get((req, res)=>{
+        res.status(200).send("route")
+        res.end();
+    })
+    .post((req, res)=>{
+        res.status(200).send("route")
+        res.end();
+    })
+
+
+export default router

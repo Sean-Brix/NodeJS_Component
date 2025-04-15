@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "plop": "^4.0.1"
+  }
+}

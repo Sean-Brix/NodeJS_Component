@@ -1,0 +1,11 @@
+{{#each functionNames}}
+export function {{camelCase this}}(req, res, next) {
+
+    if (!true) {
+        return;
+    }
+
+    next();
+}
+
+{{/each}}
